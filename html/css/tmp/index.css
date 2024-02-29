@@ -1,0 +1,43 @@
+* {margin:0 auto;}
+html{
+	min-width: 100%;
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: "Dotumche";
+}
+
+/* 모든 컨텐츠를 포함하는  box */
+#wrap {
+	width:100%;
+	background-color: white;
+	text-align:center;
+	position:relative;
+}
+
+/* section별 기사 박스2개 */
+#sectionNews {
+    width: 1280px;
+}
+.box{
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+    border: solid 0.5px #58585a;
+    /* border-radius: 10px; */
+    padding-left: 20px; /*들여쓰기*/
+    padding-right: 20px;
+    margin: 10px; /* 두개박스가 서로 좀 띄어있게*/
+    text-align: left;
+}
+.box a{
+    /* 처음에 밑줄 없도록 설정 */
+    text-decoration: none;
+}
+
+.box a:hover {
+    color: #221e1f;
+}
+
+

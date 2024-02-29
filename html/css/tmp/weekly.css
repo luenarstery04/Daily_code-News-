@@ -1,0 +1,28 @@
+/* 요일별기사 */
+
+#weeklyNews {
+	text-align: left; 
+	margin-left: 30px;
+	height: 450px;
+    border: solid;
+    padding-top: 500px;
+}
+
+#weeklyItem a{
+	 /* 처음에 밑줄 없도록 설정 */
+	 text-decoration: none; 
+	 
+}
+
+#weeklyHeader h1{
+    font: bold;
+    margin-top: 30px;
+    font-size: 30px;
+    padding-bottom: 7px;
+    border-bottom: solid #cccccc 1px;
+}
+
+#weeklyItem li{
+    border-bottom: solid 1px #cccccc;
+    height: 30px;
+}

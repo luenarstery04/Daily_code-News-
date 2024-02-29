@@ -1,0 +1,37 @@
+#opinion {
+    position: relative;
+    width:90%;
+    /* width: 800px; */
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+#opinion table{
+    width: 500px;
+    height: 300px;
+}
+
+#opinion table td{
+    border: solid #cccccc 1px;
+}
+
+#opinion table .opi_title{
+    color: black;
+    font-size: 15px;
+}
+
+#opinion table td a{
+    text-decoration: none;
+}
+
+/* 사진별 크기 */
+
+
+#opinion table img{
+    width:300px;
+    /* max-width: 700px; */
+} 
+
+/* #opi_box1 img{
+    position: relative;
+    width: 300px;
+} */

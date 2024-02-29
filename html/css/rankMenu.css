@@ -1,0 +1,172 @@
+.rankImgAll { 
+	width:1280px;
+	height:270px;
+	padding:0;
+	overflow:hidden;
+	display: inline-block;
+}
+
+.rankImgAll > ul > li {
+	display: inline-block;
+	list-style:none;
+	width:24.5%;
+	height:95%;
+	line-height:95%;
+	overflow:hidden;
+	margin-top:3px;
+}
+
+#rankNewsBox img:hover { cursor:pointer;}
+
+#rankTopBox {
+	width:100%;
+	height:100%;
+	margin-bottom: 20px;
+}
+
+
+.rankTop {
+	display: inline-block;
+	text-align: left;
+	border-radius: 20px;
+}
+
+.rankTop li::marker {
+	color: red;
+}
+
+#rankTop1 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width:49.5%;
+	height:100%;
+	background-color: whitesmoke;
+	text-decoration: none;
+	font-size: 1.4em;
+	font: bold;
+}
+
+#rankTop2 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width:49.5%;
+	height:100%;
+	background-color: whitesmoke;
+	text-decoration-line: none;
+	font-size: 1.4em;
+	font: bold;
+}
+
+#rankTopBox {
+	width: 1160px;
+	margin-top: 40px;
+	border: bold 1px black;
+	padding: 10px;
+	overflow: hidden;
+}
+
+#rankTop1 li {
+	margin-top: 20px;
+}
+
+#rankTop2 li {
+	margin-top: 20px;
+}
+
+.rankTop > ul {
+	list-style-type: none;
+	margin-right: 30px;
+}
+
+.rankTop > ul > li {
+	text-decoration-line: none;
+    margin: 3px;
+    padding: 5px;
+    position: relative;
+    display: table;
+    table-layout: fixed;
+	overflow: hidden;
+	
+}
+
+.rankTop > ul > li > div {
+    margin: 0;
+    padding: 0;
+    display: table-cell;
+    vertical-align: top;
+	overflow: hidden;
+}
+
+.rankTop > ul > li > a {
+    margin: 0;
+    padding: 0;
+    display: table-cell;
+    vertical-align: top;
+	text-align: right;
+}
+
+.rankTop > ul > li > a > img{
+    margin: 0;
+    padding-right: 10px;
+    display: table-cell;
+    vertical-align: top;
+	border-radius: 7px;
+	text-align: right;
+}
+
+.list_ranking_num {
+	color: red;
+}
+
+.list_content_time {
+	color: grey;
+	font-size: 0.6em;
+}
+
+#rankTopTitleBox > h2 {
+	height: 40px;
+	line-height: 40px;
+	color: white;
+	background: #14396e;
+	font-size: 20;
+	border-radius: 10;
+}
+
+.rankImgTilte {
+	height: 40px;
+	line-height: 40px;
+	color: white;
+	background: #14396e;
+	font-size: 20;
+	border-radius: 10;
+}
+
+
+.rankTop > ul > li:hover {
+	background-color: skyblue;
+	color:black;
+	text-decoration: underline;
+}
+
+
+/* rankImagBox 클릭시 이미지 전환 관련 */
+
+#rankImgBox {
+	display: flex;
+	width:100%;
+	height:300px;
+	margin-top:20px;
+	border-top:solid 1px #cccccc;
+	border-bottom:solid 1px #cccccc;
+}
+
+#rankImgBox div {
+	display:none;
+	padding:0;
+	margin-top:20px;
+}
+
+#rankImgBox div:first-child { 
+	display:inline-block;
+}	
+

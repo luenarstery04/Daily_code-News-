@@ -1,0 +1,15 @@
+.container {
+  width: 1280px;
+  margin: auto;
+  margin-top: 10px;
+  background-color: white;
+}
+#articleList {
+  font-size: larger;
+}
+.dailyCodeITSection{
+  float: left;
+  width: 72%;
+  border: 2.5px solid #14396e;
+  background-color: white;
+}
